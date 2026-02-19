@@ -2,9 +2,9 @@
 
 An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph, featuring:
 
-* ✅ **Adaptive RAG** — Intelligent routing between vectorstore and web search
-* ✅ **Self RAG** — Hallucination detection and answer quality verification
-* ✅ **Corrective RAG** — Document relevance evaluation before generation
+* **Adaptive RAG** — Intelligent routing between vectorstore and web search
+* **Self RAG** — Hallucination detection and answer quality verification
+* **Corrective RAG** — Document relevance evaluation before generation
   
 ![Graph](graph.png)
 
