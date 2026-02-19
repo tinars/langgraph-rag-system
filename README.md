@@ -1,4 +1,4 @@
-# Adaptive RAG Pipeline 🦜🔗
+# LangGraph RAG System 🦜🔗
 
 An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph, featuring:
 
@@ -45,8 +45,8 @@ Conversation history is maintained using a checkpointer, enabling contextual fol
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/adaptive-rag-pipeline.git
-cd adaptive-rag-pipeline
+git clone https://github.com/tinars/langgraph-rag-system.git
+cd langgraph-rag-system
 ```
 
 ### 2️⃣ Install Dependencies
@@ -89,7 +89,7 @@ poetry run python main.py
 ## 🏗️ Project Structure
 
 ```
-adaptive-rag-pipeline/
+langgraph-rag-system/
 ├── graph/
 │   ├── chains/          # LLM chains (grading, generation, etc.)
 │   ├── nodes/           # Graph nodes (retrieve, generate, web_search, etc.)
@@ -201,12 +201,9 @@ Pull requests and issues are welcome!
 
 ## 📧 Contact
 
-* GitHub: [@tinars(https://github.com/YOUR_USERNAME)
-* Email: [tinarostami110@gmail.com](mailto:your.email@example.com)
+* GitHub: [@tinars](https://github.com/tinars)
+* Email: [tinarostami110@gmail.com](mailto:tinarostami110@gmail.com)
 
 ---
 
-**By [ Tina Rostami ]**
-
----
-
+**By Tina Rostami**
