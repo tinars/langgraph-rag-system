@@ -1,6 +1,3 @@
-
----
-
 # Adaptive RAG Pipeline 🦜🔗
 
 An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph, featuring:
@@ -204,12 +201,12 @@ Pull requests and issues are welcome!
 
 ## 📧 Contact
 
-* GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* GitHub: [@tinars(https://github.com/YOUR_USERNAME)
+* Email: [tinarostami110@gmail.com](mailto:your.email@example.com)
 
 ---
 
-**Built with ❤️ by [Tina Rostami]**
+**By [ Tina Rostami ]**
 
 ---
 
