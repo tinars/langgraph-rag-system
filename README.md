@@ -103,7 +103,7 @@ langgraph-rag-system/
 ## 🧪 Running Tests
 
 ```bash
-poetry run pytest -v
+poetry run pytest . -s -v
 ```
 
 ---
