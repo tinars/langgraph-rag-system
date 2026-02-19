@@ -10,23 +10,23 @@ An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 1️⃣ Intelligent Routing (Adaptive RAG)
+### 1️. Intelligent Routing (Adaptive RAG)
 
 The system dynamically decides whether to use the vectorstore or web search based on the user's query.
 
-### 2️⃣ Document Evaluation (Corrective RAG)
+### 2️. Document Evaluation (Corrective RAG)
 
 Retrieved documents are evaluated for relevance before generating the final answer.
 
-### 3️⃣ Hallucination Detection (Self RAG)
+### 3️. Hallucination Detection (Self RAG)
 
 The generated response is checked to ensure it is grounded, relevant, and free from hallucinations.
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 * Python 3.13+
 * Poetry (for dependency management)
@@ -35,22 +35,22 @@ The generated response is checked to ensure it is grounded, relevant, and free f
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 
 ```bash
 git clone https://github.com/tinars/langgraph-rag-system.git
 cd langgraph-rag-system
 ```
 
-### 2️⃣ Install Dependencies
+### 2️. Install Dependencies
 
 ```bash
 poetry install
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3️. Configure Environment Variables
 
 Copy the example environment file and add your API keys:
 
@@ -65,7 +65,7 @@ OPENAI_API_KEY=sk-...
 TAVILY_API_KEY=tvly-...
 ```
 
-### 4️⃣ Run Ingestion (One-time setup)
+### 4️. Run Ingestion (One-time setup)
 
 Load documents into the vector store:
 
@@ -73,7 +73,7 @@ Load documents into the vector store:
 poetry run python ingestion.py
 ```
 
-### 5️⃣ Run the Application
+### 5️. Run the Application
 
 ```bash
 poetry run python main.py
@@ -81,7 +81,7 @@ poetry run python main.py
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 langgraph-rag-system/
@@ -100,7 +100,7 @@ langgraph-rag-system/
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 poetry run pytest . -s -v
@@ -108,7 +108,7 @@ poetry run pytest . -s -v
 
 ---
 
-## 📊 System Workflow
+## System Workflow
 
 ```
 User Question
@@ -136,7 +136,7 @@ Final Answer ✅
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * LangChain — Core LLM framework
 * LangGraph — Graph-based workflow orchestration
@@ -147,13 +147,13 @@ Final Answer ✅
 
 ---
 
-## 📝 License
+## License
 
 MIT License — Free to use and modify.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests and issues are welcome!
 
