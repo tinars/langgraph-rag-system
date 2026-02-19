@@ -5,8 +5,7 @@ An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph
 * ✅ **Adaptive RAG** — Intelligent routing between vectorstore and web search
 * ✅ **Self RAG** — Hallucination detection and answer quality verification
 * ✅ **Corrective RAG** — Document relevance evaluation before generation
-* ✅ **Multi-turn conversations** — Conversation memory support
-
+  
 ![Graph](graph.png)
 
 ---
@@ -24,10 +23,6 @@ Retrieved documents are evaluated for relevance before generating the final answ
 ### 3️⃣ Hallucination Detection (Self RAG)
 
 The generated response is checked to ensure it is grounded, relevant, and free from hallucinations.
-
-### 4️⃣ Multi-turn Conversations
-
-Conversation history is maintained using a checkpointer, enabling contextual follow-up questions.
 
 ---
 
@@ -101,41 +96,6 @@ langgraph-rag-system/
 ├── graph.png            # Graph visualization
 ├── pyproject.toml       # Poetry configuration
 └── README.md            # This file
-```
-
----
-
-## 🎯 Usage
-
-### Basic Example
-
-```python
-from graph.graph import app
-
-result = app.invoke({"question": "What is agent memory?"})
-print(result["generation"])
-```
-
-### Using a ChatSession Wrapper
-
-```python
-from graph.graph import app
-
-class ChatSession:
-    def __init__(self, thread_id: str):
-        self.config = {"configurable": {"thread_id": thread_id}}
-    
-    def ask(self, question: str):
-        result = app.invoke(
-            {"question": question},
-            config=self.config
-        )
-        return result["generation"]
-
-# Usage
-session = ChatSession(thread_id="user_123")
-print(session.ask("What is RAG?"))
-print(session.ask("Tell me more"))  # Understands conversation history!
 ```
 
 ---
