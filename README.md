@@ -12,15 +12,15 @@ An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph
 
 ##  Features
 
-### 1️. Intelligent Routing (Adaptive RAG)
+### . Intelligent Routing (Adaptive RAG)
 
 The system dynamically decides whether to use the vectorstore or web search based on the user's query.
 
-### 2️. Document Evaluation (Corrective RAG)
+### . Document Evaluation (Corrective RAG)
 
 Retrieved documents are evaluated for relevance before generating the final answer.
 
-### 3️. Hallucination Detection (Self RAG)
+### . Hallucination Detection (Self RAG)
 
 The generated response is checked to ensure it is grounded, relevant, and free from hallucinations.
 
@@ -37,20 +37,20 @@ The generated response is checked to ensure it is grounded, relevant, and free f
 
 ## Installation & Setup
 
-### 1️. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/tinars/langgraph-rag-system.git
 cd langgraph-rag-system
 ```
 
-### 2️. Install Dependencies
+### Install Dependencies
 
 ```bash
 poetry install
 ```
 
-### 3️. Configure Environment Variables
+### Configure Environment Variables
 
 Copy the example environment file and add your API keys:
 
@@ -65,7 +65,7 @@ OPENAI_API_KEY=sk-...
 TAVILY_API_KEY=tvly-...
 ```
 
-### 4️. Run Ingestion (One-time setup)
+### Run Ingestion (One-time setup)
 
 Load documents into the vector store:
 
@@ -73,7 +73,7 @@ Load documents into the vector store:
 poetry run python ingestion.py
 ```
 
-### 5️. Run the Application
+### Run the Application
 
 ```bash
 poetry run python main.py
