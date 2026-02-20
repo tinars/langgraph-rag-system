@@ -161,8 +161,8 @@ Pull requests and issues are welcome!
 
 ## ⚠️ Note
 
-This project was created during the course "LangGraph – Develop LLM-powered agents with LangGraph" by Eden Marco.  
-The main purpose of this project is personal learning and practice.  
+his project was developed during a course to deepen my understanding through hands-on implementation and practical experimentation.
+
 
 ---
 ## 📧 Contact
