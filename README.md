@@ -1,4 +1,4 @@
-# LangGraph RAG System 🦜🔗
+# 🦜🔗 LangGraph RAG System
 
 An advanced **Retrieval-Augmented Generation (RAG)** system built with LangGraph, featuring:
 
