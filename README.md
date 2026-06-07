@@ -131,7 +131,7 @@ Check Hallucination
     ↓
 Check Relevance to Question
     ↓
-Final Answer ✅
+Final Answer 
 ```
 
 ---
@@ -165,7 +165,7 @@ his project was developed during a course to deepen my understanding through han
 
 
 ---
-## 📧 Contact
+## Contact
 
 * GitHub: [@tinars](https://github.com/tinars)
 * Email: [tinarostami110@gmail.com](mailto:tinarostami110@gmail.com)
